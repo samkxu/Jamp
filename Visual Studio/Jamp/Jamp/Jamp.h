@@ -1,11 +1,13 @@
 #ifndef _JAMP_H_
 #define _JAMP_H_
 
-#include <SFML/Audio.hpp>
+//#include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
-#include "JEvent.h"
+#include "jStateHandler.h"
+#include "jFPS.h"
+
 
 class Jamp {
 	
