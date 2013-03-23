@@ -12,7 +12,7 @@ int Jamp::OnExecute(sf::RenderWindow* Window) {
 	sf::Event Event;
 	while(Running) {
 		while (Window->pollEvent(Event)) {
-			OnEvent(&Event);
+			OnEvent(&Event, Window);
 		}
 		OnLoop();
 		OnRender();

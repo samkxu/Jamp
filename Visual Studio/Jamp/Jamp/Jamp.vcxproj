@@ -66,6 +66,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Jamp.cpp" />
+    <ClCompile Include="Jamp_OnCleanup.cpp" />
     <ClCompile Include="Jamp_OnEvent.cpp" />
     <ClCompile Include="Jamp_OnInit.cpp" />
     <ClCompile Include="Jamp_OnLoop.cpp" />

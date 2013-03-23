@@ -15,7 +15,7 @@ public:
 	Jamp();
 	int OnExecute(sf::RenderWindow* Window);
 	bool OnInit();
-	void OnEvent(sf::Event* Event);
+	void OnEvent(sf::Event* Event, sf::RenderWindow* Window);
 	void OnLoop();
 	void OnRender();
 	void OnCleanup();
