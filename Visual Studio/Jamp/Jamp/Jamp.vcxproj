@@ -71,10 +71,26 @@
     <ClCompile Include="Jamp_OnInit.cpp" />
     <ClCompile Include="Jamp_OnLoop.cpp" />
     <ClCompile Include="Jamp_OnRender.cpp" />
+    <ClCompile Include="jEventHandler.cpp" />
+    <ClCompile Include="jFPS.cpp" />
+    <ClCompile Include="jStateHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Define.h" />
     <ClInclude Include="Jamp.h" />
-    <ClInclude Include="JEvent.h" />
+    <ClInclude Include="jAnimation.h" />
+    <ClInclude Include="jArea.h" />
+    <ClInclude Include="jCamera.h" />
+    <ClInclude Include="jEntity.h" />
+    <ClInclude Include="jEventHandler.h" />
+    <ClInclude Include="jFPS.h" />
+    <ClInclude Include="jMap.h" />
+    <ClInclude Include="jPlayer.h" />
+    <ClInclude Include="jState.h" />
+    <ClInclude Include="jStateGame.h" />
+    <ClInclude Include="jStateHandler.h" />
+    <ClInclude Include="jStateMenu.h" />
+    <ClInclude Include="jTile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,24 +1,36 @@
-﻿Build started 3/22/2013 10:24:14 PM.
+﻿Build started 3/23/2013 6:49:35 AM.
      1>Project "D:\Docs\Jamp\Jamp\Jamp\Jamp.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Programs\Utilities\Visual Studio\VC\bin\CL.exe /c /I"D:\Docs\SFML 2.0\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Jamp.cpp Jamp_OnCleanup.cpp Jamp_OnEvent.cpp Jamp_OnInit.cpp Jamp_OnLoop.cpp Jamp_OnRender.cpp
-         Jamp_OnRender.cpp
+         D:\Programs\Utilities\Visual Studio\VC\bin\CL.exe /c /I"D:\Docs\SFML 2.0\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Jamp.cpp Jamp_OnCleanup.cpp Jamp_OnEvent.cpp Jamp_OnInit.cpp Jamp_OnLoop.cpp Jamp_OnRender.cpp jEventHandler.cpp jFPS.cpp jStateHandler.cpp
+         jStateHandler.cpp
+     1>d:\docs\jamp\jamp\jamp\jstategame.h(7): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>d:\docs\jamp\jamp\jamp\jstategame.h(7): error C2143: syntax error : missing ';' before ':'
+     1>d:\docs\jamp\jamp\jamp\jstategame.h(7): error C2059: syntax error : ':'
+     1>d:\docs\jamp\jamp\jamp\jstategame.h(7): error C2059: syntax error : 'public'
+     1>d:\docs\jamp\jamp\jamp\jstategame.h(7): error C2143: syntax error : missing ';' before '{'
+     1>d:\docs\jamp\jamp\jamp\jstategame.h(7): error C2447: '{' : missing function header (old-style formal list?)
+     1>d:\docs\jamp\jamp\jamp\jstatehandler.cpp(30): error C2653: 'jStateGame' : is not a class or namespace name
+     1>d:\docs\jamp\jamp\jamp\jstatehandler.cpp(30): error C3861: 'GetInstance': identifier not found
+         jFPS.cpp
+     1>d:\docs\jamp\jamp\jamp\jfps.cpp(20): error C3867: 'sf::Clock::getElapsedTime': function call missing argument list; use '&sf::Clock::getElapsedTime' to create a pointer to member
+     1>d:\docs\jamp\jamp\jamp\jfps.cpp(20): error C2678: binary '-' : no operator found which takes a left-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+                 d:\docs\sfml 2.0\include\sfml\system\time.hpp(268): could be 'sf::Time sf::operator -(sf::Time,sf::Time)' [found using argument-dependent lookup]
+                 d:\docs\sfml 2.0\include\sfml\system\time.hpp(232): or       'sf::Time sf::operator -(sf::Time)' [found using argument-dependent lookup]
+                 'sf::Clock::getElapsedTime': function call missing argument list; use '&sf::Clock::getElapsedTime' to create a pointer to member
+                 while trying to match the argument list '()'
+     1>d:\docs\jamp\jamp\jamp\jfps.cpp(20): warning C4244: 'argument' : conversion from 'float' to 'sf::Int32', possible loss of data
+         jEventHandler.cpp
          Jamp_OnLoop.cpp
+         Generating Code...
+         Compiling...
+         Jamp_OnRender.cpp
          Jamp_OnInit.cpp
          Jamp_OnEvent.cpp
          Jamp_OnCleanup.cpp
          Jamp.cpp
          Generating Code...
-       Link:
-         D:\Programs\Utilities\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Docs\Jamp\Jamp\Debug\Jamp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Docs\SFML 2.0\lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-graphics-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Docs\Jamp\Jamp\Debug\Jamp.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Docs\Jamp\Jamp\Debug\Jamp.lib" /MACHINE:X86 Debug\Jamp.obj
-         Debug\Jamp_OnCleanup.obj
-         Debug\Jamp_OnEvent.obj
-         Debug\Jamp_OnInit.obj
-         Debug\Jamp_OnLoop.obj
-         Debug\Jamp_OnRender.obj
-         Jamp.vcxproj -> D:\Docs\Jamp\Jamp\Debug\Jamp.exe
-     1>Done Building Project "D:\Docs\Jamp\Jamp\Jamp\Jamp.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\Docs\Jamp\Jamp\Jamp\Jamp.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:04.77
+Time Elapsed 00:00:05.61
