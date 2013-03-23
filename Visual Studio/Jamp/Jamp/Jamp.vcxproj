@@ -70,7 +70,6 @@
     <ClCompile Include="Jamp_OnInit.cpp" />
     <ClCompile Include="Jamp_OnLoop.cpp" />
     <ClCompile Include="Jamp_OnRender.cpp" />
-    <ClCompile Include="Sam.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Jamp.h" />
