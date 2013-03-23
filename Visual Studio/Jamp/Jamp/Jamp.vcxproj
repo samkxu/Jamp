@@ -43,11 +43,11 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>D:\Docs\C++\SFML 2.0\VS11x32\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Docs\SFML 2.0\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Docs\C++\SFML 2.0\VS11x32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Docs\SFML 2.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -66,9 +66,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Jamp.cpp" />
+    <ClCompile Include="Jamp_OnEvent.cpp" />
+    <ClCompile Include="Jamp_OnInit.cpp" />
+    <ClCompile Include="Jamp_OnLoop.cpp" />
+    <ClCompile Include="Jamp_OnRender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Jamp.h" />
+    <ClInclude Include="JEvent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,9 +18,24 @@
     <ClInclude Include="Jamp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="JEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Jamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jamp_OnEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jamp_OnInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jamp_OnLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jamp_OnRender.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

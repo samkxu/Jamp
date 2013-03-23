@@ -12,7 +12,7 @@ int Jamp::OnExecute(sf::RenderWindow* Window) {
 	sf::Event Event;
 	while(Running) {
 		while (Window->pollEvent(Event)) {
-			JEvent(&Event);
+			OnEvent(&Event);
 		}
 		OnLoop();
 		OnRender();
@@ -41,9 +41,9 @@ int main()
 	}
 	splash.close();
 
-	sf::RenderWindow main(sf::VideoMode(800,600), "Jamp");
+	sf::RenderWindow mainWindow(sf::VideoMode(800,600), "Jamp");
 	
-	return JampGame.OnExecute(&main);
+	return JampGame.OnExecute(&mainWindow);
 
 	
 
